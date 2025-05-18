@@ -29,7 +29,7 @@ Responsive design optimized for mobile
 
 ![image alt](https://github.com/RidwanSupon/YumRush/blob/main/ss/Screenshot%20from%202025-05-18%2014-08-32.png?raw=true)
 
-![image alt](https://github.com/RidwanSupon/YumRush/blob/main/ss/Screenshot%20from%202025-05-18%2015-39-27.png?raw=true)
+![image alt](https://github.com/RidwanSupon/YumRush/blob/main/ss/Screenshot%20from%202025-05-18%2015-45-27.png?raw=true)
 
 ![image alt](https://github.com/RidwanSupon/YumRush/blob/main/ss/Screenshot%20from%202025-05-18%2014-08-50.png?raw=true)
 
