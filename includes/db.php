@@ -1,8 +1,8 @@
 <?php
-$host = "sql301.infinityfree.com";
-$user = "if0_39012557";
-$pass = "e0wrIPwFVftE";
-$dbname = "if0_39012557_yumrush";
+$host = "localhost";
+$user = "root";
+$pass = "";
+$dbname = "yumrush";
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 

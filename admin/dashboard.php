@@ -56,15 +56,20 @@ $profit = $sales_count - $expense_count;
                 <a href="add_sale.php" class="text-sm text-blue-600 hover:underline">➕ Add Sale</a>
                 <a href="view_sale.php" class="text-green-600 block">📋 View Sale</a>
             </div>
+            <!-- monthly summary -->
+            <div class="bg-white rounded-xl shadow-lg p-6" >
+                    <h3 class="text-lg font-semibold text-orange-600 mb-2">📊 Monthly summary</h3>
+                    <a href="monthly_summary.php" class="text-green-600 block">📋 View Monthly Summary</a>
+            </div>
             <!-- Profit/Loss Summary -->
-             <div class="bg-white rounded-xl shadow-lg p-6 col-span-1 sm:col-span-2 lg:col-span-3">
-                <h3 class="text-lg font-semibold text-orange-600 mb-2">📊 Profit / Loss</h3>
-                <p class="text-gray-700 text-xl font-bold">
+        <div class="bg-white rounded-xl shadow-lg p-6 col-span-1 sm:col-span-2 lg:col-span-2">
+            <h3 class="text-lg font-semibold text-orange-600 mb-2">📊 Profit / Loss</h3>
+            <p class="text-gray-700 text-xl font-bold">
                 <?= ($profit >= 0) 
                     ? "<span class='text-green-600'>Profit: ৳" . number_format($profit, 2) . "</span>" 
                     : "<span class='text-red-600'>Loss: ৳" . number_format(abs($profit), 2) . "</span>" ?>
-                 </p>
-            </div>
+            </p>
+        </div>
 
 
         </div>
